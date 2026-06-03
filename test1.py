@@ -4,10 +4,6 @@ from groq import Groq
 
 # Groq API Key
 
-
-# OMDb API Key
-OMDB_API_KEY = "apikey"
-
 st.title("🎬 AI Movie Analyzer")
 
 movie_name = st.text_input("Enter Movie Name")
